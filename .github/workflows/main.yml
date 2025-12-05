@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name : 'Testing Github action'
-        run: echo %cd%
+        run: pwd
       
       - name : 'Testing Printing'
         run: echo Mohamed
